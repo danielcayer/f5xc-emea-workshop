@@ -60,7 +60,11 @@ For example, we want to ensure that the response does not contain any internal p
 
 2. Set the **Name** to **Internal IPs**
 
-3. In the **Regular expression** enter: ``(?i)\bhttps?:\/\/(localhost|127\.0\.0\.1|0\.0\.0\.0|10\.(?:\d\d?\d?\.)\d\d?\d?|172\.(?:1[6-9]|2\d|3[0-1])\.(?:\d\d?\d?\.)\d\d?\d?|192\.168\.(?:\d\d?\d?\.)\d\d?\d?)(?::\d+)?(?:\/[^\s]*)?``
+3. In the **Regular expression** enter:
+
+   .. code-block:: none
+
+      ``(?i)\bhttps?:\/\/(localhost|127\.0\.0\.1|0\.0\.0\.0|10\.(?:\d\d?\d?\.)\d\d?\d?|172\.(?:1[6-9]|2\d|3[0-1])\.(?:\d\d?\d?\.)\d\d?\d?|192\.168\.(?:\d\d?\d?\.)\d\d?\d?)(?::\d+)?(?:\/[^\s]*)?``
 
 4. Click **Save** ⇒ **Save version**
 
