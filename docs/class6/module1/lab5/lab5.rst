@@ -25,6 +25,10 @@ Take the time to go over the different packages and their built-in scanners.
 
 5. In the main left tab go to **Logs** and let's inspect the logs and the blocking reason.
 
+   .. Note::
+
+      It can take a few seconds for the logs to appear. Refresh the page after a few moments if the list is empty.
+
    Click on each log. For each one, you will see the scanner that fired in **Scanner details**. 
    
    Click on **Prompt and response**, you will be able to see the text that has been scanned.
